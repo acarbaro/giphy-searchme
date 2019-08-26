@@ -2,7 +2,7 @@ import WithState from './WithState.view.js'
 import React, { useReducer, useEffect, useState } from 'react'
 
 const animalList = [
-  'cat', 'dog', 'lion', 'monkey'
+  'cat', 'dog', 'lion', 'elephant', 'monkey'
 ]
 
 export default function WithStateLogic(props) {
@@ -10,7 +10,7 @@ export default function WithStateLogic(props) {
   const [giphy, setGiphy] = useState({})
   useEffect(() => {
     async function getGiphyListed() {
-      const url = `http://api.giphy.com/v1/gifs/random?api_key=${process.env.REACT_APP_API_KEY}&tag=${animalList[Math.floor(Math.random() * 4)]}`;
+      const url = `http://api.giphy.com/v1/gifs/random?api_key=${process.env.REACT_APP_API_KEY}&tag=${animalList[Math.floor(Math.random() * 5)]}`;
       const response =  await fetch(url);
       const responseJson = await response.json();
       const gifUrl = responseJson.data.images.fixed_width.url;
@@ -18,7 +18,7 @@ export default function WithStateLogic(props) {
     }
     getGiphyListed();
 
-    
+
   }, [props])
 
   return (
