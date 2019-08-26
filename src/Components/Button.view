@@ -1,0 +1,35 @@
+Button View
+  Vertical
+  alignSelf flexStart
+  backgroundColor #ffffff
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  borderColor #ff8300
+  borderStyle solid
+  borderWidth 1
+  cursor pointer
+  justifyContent center
+  marginLeft < 0
+  marginTop < 0
+  onClick <
+  opacity 1
+  paddingBottom 4
+  paddingLeft < 12
+  paddingRight < 12
+  paddingTop 4
+  when <isHovered
+  backgroundColor #ff8300 easeInOut
+  when <isSelected
+  backgroundColor #ff8300 easeInOut
+    Text
+    color #323232
+    fontFamily Montserrat
+    fontSize 10
+    fontWeight 300
+    text < Label
+    when <isHovered
+    color #ffffff easeInOut
+    when <isSelected
+    color #ffffff easeInOut

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "url": "http://localhost:3000",
+  "media": {
+    "base": "laptop",
+    "mobile": {
+      "width": 375,
+      "height": 667
+    },
+    "tablet": {
+      "width": 1024,
+      "height": 768
+    },
+    "laptop": {
+      "width": 1280,
+      "height": 800
+    },
+    "desktop": {
+      "width": 2560,
+      "height": 1600
+    }
+  }
+}

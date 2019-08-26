@@ -1,0 +1,10 @@
+App View
+flow separate
+  Text
+  fontSize 28
+  text Playground
+  Horizontal
+  marginTop 12
+  Vertical
+  marginTop 24
+    BottomBarGrowHeight

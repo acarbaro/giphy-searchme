@@ -1,0 +1,13 @@
+BottomBarGrowHeight View
+flow separate
+  Button
+  onClick <setFlow
+  onClickId /App/BottomBarGrowHeight/WithState
+  text Random Animal
+  Button
+  marginTop 4
+  onClick <setFlow
+  onClickId /App/BottomBarGrowHeight/WithStories
+  text  Clean
+  WithState
+  WithStories

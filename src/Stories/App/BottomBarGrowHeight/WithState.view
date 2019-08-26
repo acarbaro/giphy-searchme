@@ -1,0 +1,9 @@
+WithState View
+flow together
+  Horizontal
+  height 100
+  onClick <
+  when <isBigger
+  height 250
+    Image
+    source < 
